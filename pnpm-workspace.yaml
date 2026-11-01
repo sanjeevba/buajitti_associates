@@ -1,0 +1,4 @@
+allowBuilds:
+  bufferutil: false
+  esbuild: true
+  unrs-resolver: true
