@@ -1,7 +1,7 @@
 import { Banner } from '@payloadcms/ui/elements/Banner'
+import Link from 'next/link'
 import React from 'react'
 
-import { SeedButton } from './SeedButton'
 import './index.scss'
 
 const baseClass = 'before-dashboard'
@@ -10,58 +10,37 @@ const BeforeDashboard: React.FC = () => {
   return (
     <div className={baseClass}>
       <Banner className={`${baseClass}__banner`} type="success">
-        <h4>Welcome to your dashboard!</h4>
+        <h4>Buajitti &amp; Associates</h4>
       </Banner>
-      Here&apos;s what to do next:
+      <p>Manage your website using the collections below.</p>
       <ul className={`${baseClass}__instructions`}>
         <li>
-          <SeedButton />
-          {' with a few pages, posts, and projects to jump-start your new site, then '}
-          <a href="/" target="_blank">
-            visit your website
-          </a>
-          {' to see the results.'}
+          <Link href="/admin/collections/home-highlights">Home highlights</Link>: update and reorder
+          the technology and service highlights on the Our Expertise page.
         </li>
         <li>
-          {'Modify your '}
-          <a
-            href="https://payloadcms.com/docs/configuration/collections"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            collections
-          </a>
-          {' and add more '}
-          <a
-            href="https://payloadcms.com/docs/fields/overview"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            fields
-          </a>
-          {' as needed. If you are new to Payload, we also recommend you check out the '}
-          <a
-            href="https://payloadcms.com/docs/getting-started/what-is-payload"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Getting Started
-          </a>
-          {' docs.'}
+          <Link href="/admin/collections/portfolio-projects">Portfolio projects</Link>: edit client
+          work, upload images and choose how each image fits.
         </li>
         <li>
-          Commit and push your changes to the repository to trigger a redeployment of your project.
+          <Link href="/admin/collections/team-members">Team members</Link>: manage names, roles,
+          biographies and portraits.
+        </li>
+        <li>
+          <Link href="/admin/globals/site-settings">Site settings</Link>: edit home and about copy
+          and company contact details.
+        </li>
+        <li>
+          <Link href="/admin/collections/contact-submissions">Contact submissions</Link>: read
+          website enquiries.
         </li>
       </ul>
-      {'Pro Tip: This block is a '}
-      <a
-        href="https://payloadcms.com/docs/custom-components/overview"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        custom component
+      <p>
+        Save content as a draft while editing, then publish it to make it visible on the website.
+      </p>
+      <a href="/" target="_blank" rel="noopener noreferrer">
+        View website
       </a>
-      , you can remove it at any time by updating your <strong>payload.config</strong>.
     </div>
   )
 }

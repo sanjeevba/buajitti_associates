@@ -1,0 +1,27 @@
+{
+  "organization": "Wesco International",
+  "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:WESCO_International_logo.svg",
+  "officialVerificationPageUrl": "https://dev.wesco.com/us/en/our-company/news-and-insights/our-brand.html",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/WESCO_International_logo.svg",
+  "localPath": "/images/portfolio/wesco.svg",
+  "alt": "Wesco International green symbol and charcoal wordmark",
+  "imageFit": "contain",
+  "format": "svg",
+  "intrinsicDimensions": {
+    "width": 712,
+    "height": 546
+  },
+  "retrievedAt": "2026-11-18",
+  "selectionNotes": "Clean full-color stacked Wesco identity with no embedded social icons or promotional text. The green symbol and charcoal wordmark match the preferred vertical identity shown by Wesco on its official brand page. Vector artwork remains sharp at the portfolio thumbnail size.",
+  "attributionTerms": [
+    "The Wikimedia Commons file description credits WESCO International as author and https://www.wesco.com/ as source.",
+    "The Commons file page labels this logo PD-textlogo (public domain due to simple geometric shapes/text) and notes trademark restrictions.",
+    "The official Wesco brand page states that vertical alignment is preferred, full-color logos should appear on light backgrounds, and clear space should be maintained.",
+    "The official brand page says its logo and guidelines are for Corporate, U.S. and Canada use."
+  ],
+  "rasterRendition": {
+    "localPath": "/images/portfolio/wesco.png",
+    "method": "SVG-to-PNG format conversion in the project import workflow, preserving the original colors and proportions.",
+    "originalPreservedAt": "/images/portfolio/wesco.svg"
+  }
+}

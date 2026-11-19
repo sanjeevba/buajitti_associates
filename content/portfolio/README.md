@@ -1,0 +1,15 @@
+# Portfolio image sources
+
+The first three logos were downloaded on 18 November 2026; IN.gov and nVisionKC were added on 19 November 2026. These clean organization identity images are displayed intact on white square tiles. Detailed download URLs, dimensions and source usage notes are retained in the individual JSON files in this directory.
+
+| Portfolio entry                     | Source                                                                                                                                                                                                                  | Local website image                            |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Navy Federal Credit Union           | [Wikimedia Commons file, credited to Navy Federal Credit Union](https://commons.wikimedia.org/wiki/File:NavyFederalLogo.png)                                                                                            | `public/images/portfolio/navy-federal.png`     |
+| Wesco International                 | [Wesco brand guidelines](https://dev.wesco.com/us/en/our-company/news-and-insights/our-brand.html), [vector file credited to Wesco International](https://commons.wikimedia.org/wiki/File:WESCO_International_logo.svg) | `public/images/portfolio/wesco.png`            |
+| U.S. Department of Veterans Affairs | [Official VA Design System logo archive](https://design.va.gov/foundation/logos)                                                                                                                                        | `public/images/portfolio/veterans-affairs.png` |
+| State of Indiana (IN.gov)           | [IN.gov official portal](https://www.in.gov/core/index.html)                                                                                                                                                            | `public/images/portfolio/in-gov.png`           |
+| nVisionKC                           | [nVisionKC official website](https://nvisionkc.com/)                                                                                                                                                                    | `public/images/portfolio/nvisionkc.png`        |
+
+The Wesco source vector is also retained at `public/images/portfolio/wesco.svg`. Its PNG rendition is a format conversion at 1200px width that preserves the vector's colors and proportions. Navy Federal and VA use the downloaded PNG artwork.
+
+`src/content/portfolio-images.ts` maps these assets to collection slugs. Run `pnpm refresh:portfolio-images --dry-run` to validate the files, then `pnpm refresh:portfolio-images` to upload and assign the images in Payload. The original website assets remain archived under `public/images/legacy/`.

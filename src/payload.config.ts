@@ -9,6 +9,11 @@ import { Media } from './collections/Media'
 import { Pages } from './collections/Pages'
 import { Posts } from './collections/Posts'
 import { Users } from './collections/Users'
+import { HomeHighlights } from './collections/HomeHighlights'
+import { PortfolioProjects } from './collections/PortfolioProjects'
+import { TeamMembers } from './collections/TeamMembers'
+import { ContactSubmissions } from './collections/ContactSubmissions'
+import { SiteSettings } from './globals/SiteSettings'
 import { Footer } from './Footer/config'
 import { Header } from './Header/config'
 import { plugins } from './plugins'
@@ -59,22 +64,38 @@ export default buildConfig({
   // This config helps us configure global or default features that the other editors can inherit
   editor: defaultLexical,
   db: vercelPostgresAdapter({
+    // Schema changes are applied with migrations. Enable push only for a disposable local database.
+    push: process.env.PAYLOAD_DB_PUSH === 'true',
     pool: {
       connectionString: process.env.POSTGRES_URL || '',
     },
   }),
-  collections: [Pages, Posts, Media, Categories, Users],
+  collections: [
+    HomeHighlights,
+    PortfolioProjects,
+    TeamMembers,
+    Pages,
+    Posts,
+    Media,
+    Categories,
+    Users,
+    ContactSubmissions,
+  ],
   cors: [getServerSideURL()].filter(Boolean),
   plugins: [
     ...plugins,
-    vercelBlobStorage({
-      collections: {
-        media: true,
-      },
-      token: process.env.BLOB_READ_WRITE_TOKEN || '',
-    }),
+    ...(process.env.BLOB_READ_WRITE_TOKEN
+      ? [
+          vercelBlobStorage({
+            collections: {
+              media: true,
+            },
+            token: process.env.BLOB_READ_WRITE_TOKEN || '',
+          }),
+        ]
+      : []),
   ],
-  globals: [Header, Footer],
+  globals: [SiteSettings, Header, Footer],
   secret: process.env.PAYLOAD_SECRET,
   sharp,
   typescript: {

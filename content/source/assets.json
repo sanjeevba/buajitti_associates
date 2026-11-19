@@ -1,0 +1,100 @@
+[
+  {
+    "name": "hero-platform.png",
+    "source": "http://buajittiassociates.com/assets/img/hero-img.png",
+    "bytes": 68245,
+    "contentType": "image/png",
+    "path": "/images/legacy/hero-platform.png"
+  },
+  {
+    "name": "client-nvisionkc.png",
+    "source": "http://buajittiassociates.com/assets/img/clients/nvisionkc.png",
+    "bytes": 144574,
+    "contentType": "image/png",
+    "path": "/images/legacy/client-nvisionkc.png"
+  },
+  {
+    "name": "client-in.png",
+    "source": "http://buajittiassociates.com/assets/img/clients/in.png",
+    "bytes": 1653,
+    "contentType": "image/png",
+    "path": "/images/legacy/client-in.png"
+  },
+  {
+    "name": "client-navy-federal.png",
+    "source": "http://buajittiassociates.com/assets/img/clients/nfcu.png",
+    "bytes": 9847,
+    "contentType": "image/png",
+    "path": "/images/legacy/client-navy-federal.png"
+  },
+  {
+    "name": "client-wesco.png",
+    "source": "http://buajittiassociates.com/assets/img/clients/wesco.png",
+    "bytes": 1258,
+    "contentType": "image/png",
+    "path": "/images/legacy/client-wesco.png"
+  },
+  {
+    "name": "skills.png",
+    "source": "http://buajittiassociates.com/assets/img/skills.png",
+    "bytes": 41740,
+    "contentType": "image/png",
+    "path": "/images/legacy/skills.png"
+  },
+  {
+    "name": "cta-background.jpg",
+    "source": "http://buajittiassociates.com/assets/img/cta-bg.jpg",
+    "bytes": 212914,
+    "contentType": "image/jpeg",
+    "path": "/images/legacy/cta-background.jpg"
+  },
+  {
+    "name": "ken-buajitti.jpg",
+    "source": "http://buajittiassociates.com/assets/img/team/ken.jpg",
+    "bytes": 225225,
+    "contentType": "image/jpeg",
+    "path": "/images/legacy/ken-buajitti.jpg"
+  },
+  {
+    "name": "sanjeev-bastodkar.jpg",
+    "source": "http://buajittiassociates.com/assets/img/team/sanjeev.jpg",
+    "bytes": 145052,
+    "contentType": "image/jpeg",
+    "path": "/images/legacy/sanjeev-bastodkar.jpg"
+  },
+  {
+    "name": "portfolio-navy-federal.jpg",
+    "source": "http://buajittiassociates.com/assets/img/portfolio/app-1.jpg",
+    "bytes": 168486,
+    "contentType": "image/jpeg",
+    "path": "/images/legacy/portfolio-navy-federal.jpg"
+  },
+  {
+    "name": "portfolio-wesco.jpg",
+    "source": "http://buajittiassociates.com/assets/img/portfolio/app-2.jpg",
+    "bytes": 83686,
+    "contentType": "image/jpeg",
+    "path": "/images/legacy/portfolio-wesco.jpg"
+  },
+  {
+    "name": "portfolio-veterans-affairs.jpg",
+    "source": "http://buajittiassociates.com/assets/img/portfolio/app-3.jpg",
+    "bytes": 200111,
+    "contentType": "image/jpeg",
+    "path": "/images/legacy/portfolio-veterans-affairs.jpg"
+  },
+  {
+    "name": "favicon.png",
+    "source": "http://buajittiassociates.com/assets/img/favicon.png",
+    "bytes": 1156,
+    "contentType": "image/png",
+    "path": "/images/legacy/favicon.png"
+  },
+  {
+    "name": "apple-touch-icon.png",
+    "source": "http://buajittiassociates.com/assets/img/apple-touch-icon.png",
+    "bytes": 7489,
+    "contentType": "image/png",
+    "path": "/images/legacy/apple-touch-icon.png"
+  }
+]

@@ -1,0 +1,310 @@
+{
+  "source": {
+    "url": "http://buajittiassociates.com/index.html",
+    "retrievedAt": "2026-11-18",
+    "archivedHTML": "content/source/index.html",
+    "notes": [
+      "The existing site is a single page with anchor navigation for Home, About, Portfolio, Team and Contact.",
+      "All three original portfolio images contain embedded logos, captions and social badges. Display them without cropping, using consistent frames and object-fit: contain.",
+      "No biographies, working social profiles or individual contact details are supplied for team members.",
+      "The contact section uses Warm Spring Road; the footer uses Warm Springs Road. This migration uses the footer spelling.",
+      "Generic template footer links, stock service labels and nonfunctional social links are omitted from the new navigation.",
+      "The original skill progress percentages are preserved in sourceSkills as archival content; they are self-reported template-style figures, not verified metrics.",
+      "Only copy cleanup, spelling corrections and presentation changes were made. No project results, qualifications or business claims have been invented."
+    ]
+  },
+  "homeHighlights": [
+    {
+      "title": "Power Apps",
+      "order": 1
+    },
+    {
+      "title": "Power Automate",
+      "order": 2
+    },
+    {
+      "title": "Power Pages",
+      "order": 3
+    },
+    {
+      "title": "Power Virtual Agents",
+      "order": 4
+    },
+    {
+      "title": "Power BI",
+      "order": 5
+    },
+    {
+      "title": "Dynamics 365",
+      "order": 6
+    },
+    {
+      "title": "Dataverse",
+      "order": 7
+    },
+    {
+      "title": "Azure Functions",
+      "order": 8
+    },
+    {
+      "title": "Azure DevOps",
+      "order": 9
+    },
+    {
+      "title": "Copilot",
+      "order": 10
+    }
+  ],
+  "portfolioProjects": [
+    {
+      "title": "Navy Federal Credit Union",
+      "slug": "navy-federal-credit-union",
+      "client": "Navy Federal Credit Union (NFCU)",
+      "category": "Dynamics 365 Customer Service",
+      "description": "A strong and loyal relationship in private industry, particularly with organizations that support veterans.",
+      "technologies": [
+        "Dynamics 365 Customer Service"
+      ],
+      "projectDate": "1 October 2018",
+      "image": "/images/legacy/portfolio-navy-federal.jpg",
+      "imageAlt": "Original Navy Federal Credit Union project artwork",
+      "imageFit": "contain",
+      "order": 1,
+      "featured": true
+    },
+    {
+      "title": "Wesco International",
+      "slug": "wesco-international",
+      "client": "Wesco International",
+      "category": "Dynamics 365 Customer Service",
+      "description": "A strong and loyal relationship in private industry. Wesco is a wholesale distributor of construction materials.",
+      "technologies": [
+        "Dynamics 365 Customer Service"
+      ],
+      "projectDate": "1 October 2019",
+      "image": "/images/legacy/portfolio-wesco.jpg",
+      "imageAlt": "Original Wesco International project artwork",
+      "imageFit": "contain",
+      "order": 2,
+      "featured": true
+    },
+    {
+      "title": "Veterans Affairs",
+      "slug": "veterans-affairs",
+      "client": "Veterans Affairs",
+      "category": "Dynamics 365 Customer Service",
+      "description": "A strong and loyal relationship within government. We thank you for your service.",
+      "technologies": [
+        "Dynamics 365 Customer Service"
+      ],
+      "projectDate": "October 2019 & August 2022",
+      "image": "/images/legacy/portfolio-veterans-affairs.jpg",
+      "imageAlt": "Original United States Department of Veterans Affairs project artwork",
+      "imageFit": "contain",
+      "order": 3,
+      "featured": true
+    }
+  ],
+  "teamMembers": [
+    {
+      "name": "Ken Buajitti",
+      "role": "Chief Executive Officer",
+      "bio": "",
+      "photo": "/images/legacy/ken-buajitti.jpg",
+      "imageAlt": "Ken Buajitti, Chief Executive Officer",
+      "order": 1
+    },
+    {
+      "name": "Sanjeev Bastodkar",
+      "role": "Power Platform Development Lead",
+      "bio": "",
+      "photo": "/images/legacy/sanjeev-bastodkar.jpg",
+      "imageAlt": "Sanjeev Bastodkar, Power Platform Development Lead",
+      "order": 2
+    }
+  ],
+  "siteSettings": {
+    "companyName": "Buajitti & Associates",
+    "companySuffix": "Ltd.",
+    "hero": {
+      "eyebrow": "Microsoft technology. Practical solutions.",
+      "title": "Power Platform solutions for your business.",
+      "description": "We are a team of Microsoft certified developers providing consulting services across Power Platform, Dynamics 365 and Azure.",
+      "image": "/images/legacy/hero-platform.png"
+    },
+    "about": {
+      "title": "Built for the way your business grows.",
+      "introduction": "We design solutions with growth in mind, so they continue to meet your business needs as your company evolves.",
+      "description": "Our work brings together Microsoft Dynamics 365, Power Platform, Azure, integration services and business intelligence. We use modern technology while keeping your return on investment at the centre of our advice.",
+      "benefits": [
+        {
+          "title": "Automate everyday work",
+          "description": "Streamline repetitive tasks with paperless processes to improve efficiency and reduce manual operating costs."
+        },
+        {
+          "title": "Make better use of your data",
+          "description": "Bring business intelligence and analytics into your applications to identify trends and inform decisions."
+        },
+        {
+          "title": "Connect your business systems",
+          "description": "Use integration technologies to connect Power Apps with external systems and services."
+        }
+      ]
+    },
+    "contact": {
+      "address": "2180 East Warm Springs Road, Unit 2041\nLas Vegas, NV 89119",
+      "phone": "615-512-9787",
+      "email": "kenb@buajittiassociates.com"
+    }
+  },
+  "clients": [
+    {
+      "name": "nVisionKC",
+      "image": "/images/legacy/client-nvisionkc.png",
+      "imageAlt": "nVisionKC"
+    },
+    {
+      "name": "IN.gov",
+      "image": "/images/legacy/client-in.png",
+      "imageAlt": "IN.gov"
+    },
+    {
+      "name": "Navy Federal Credit Union",
+      "image": "/images/legacy/client-navy-federal.png",
+      "imageAlt": "Navy Federal Credit Union"
+    },
+    {
+      "name": "Wesco",
+      "image": "/images/legacy/client-wesco.png",
+      "imageAlt": "Wesco"
+    }
+  ],
+  "services": [
+    {
+      "title": "Microsoft Dynamics 365 & Power Platform",
+      "description": "Dynamics 365 and Power Platform are the core of our offerings."
+    },
+    {
+      "title": "Azure, integration & business intelligence",
+      "description": "We also offer Azure, integration services and business intelligence."
+    }
+  ],
+  "sourceSkills": [
+    {
+      "title": "Dynamics 365",
+      "percentage": 100
+    },
+    {
+      "title": "Power Platform",
+      "percentage": 90
+    },
+    {
+      "title": "Azure",
+      "percentage": 75
+    },
+    {
+      "title": "Business Intelligence",
+      "percentage": 55
+    }
+  ],
+  "assets": [
+    {
+      "name": "hero-platform.png",
+      "source": "http://buajittiassociates.com/assets/img/hero-img.png",
+      "bytes": 68245,
+      "contentType": "image/png",
+      "path": "/images/legacy/hero-platform.png"
+    },
+    {
+      "name": "client-nvisionkc.png",
+      "source": "http://buajittiassociates.com/assets/img/clients/nvisionkc.png",
+      "bytes": 144574,
+      "contentType": "image/png",
+      "path": "/images/legacy/client-nvisionkc.png"
+    },
+    {
+      "name": "client-in.png",
+      "source": "http://buajittiassociates.com/assets/img/clients/in.png",
+      "bytes": 1653,
+      "contentType": "image/png",
+      "path": "/images/legacy/client-in.png"
+    },
+    {
+      "name": "client-navy-federal.png",
+      "source": "http://buajittiassociates.com/assets/img/clients/nfcu.png",
+      "bytes": 9847,
+      "contentType": "image/png",
+      "path": "/images/legacy/client-navy-federal.png"
+    },
+    {
+      "name": "client-wesco.png",
+      "source": "http://buajittiassociates.com/assets/img/clients/wesco.png",
+      "bytes": 1258,
+      "contentType": "image/png",
+      "path": "/images/legacy/client-wesco.png"
+    },
+    {
+      "name": "skills.png",
+      "source": "http://buajittiassociates.com/assets/img/skills.png",
+      "bytes": 41740,
+      "contentType": "image/png",
+      "path": "/images/legacy/skills.png"
+    },
+    {
+      "name": "cta-background.jpg",
+      "source": "http://buajittiassociates.com/assets/img/cta-bg.jpg",
+      "bytes": 212914,
+      "contentType": "image/jpeg",
+      "path": "/images/legacy/cta-background.jpg"
+    },
+    {
+      "name": "ken-buajitti.jpg",
+      "source": "http://buajittiassociates.com/assets/img/team/ken.jpg",
+      "bytes": 225225,
+      "contentType": "image/jpeg",
+      "path": "/images/legacy/ken-buajitti.jpg"
+    },
+    {
+      "name": "sanjeev-bastodkar.jpg",
+      "source": "http://buajittiassociates.com/assets/img/team/sanjeev.jpg",
+      "bytes": 145052,
+      "contentType": "image/jpeg",
+      "path": "/images/legacy/sanjeev-bastodkar.jpg"
+    },
+    {
+      "name": "portfolio-navy-federal.jpg",
+      "source": "http://buajittiassociates.com/assets/img/portfolio/app-1.jpg",
+      "bytes": 168486,
+      "contentType": "image/jpeg",
+      "path": "/images/legacy/portfolio-navy-federal.jpg"
+    },
+    {
+      "name": "portfolio-wesco.jpg",
+      "source": "http://buajittiassociates.com/assets/img/portfolio/app-2.jpg",
+      "bytes": 83686,
+      "contentType": "image/jpeg",
+      "path": "/images/legacy/portfolio-wesco.jpg"
+    },
+    {
+      "name": "portfolio-veterans-affairs.jpg",
+      "source": "http://buajittiassociates.com/assets/img/portfolio/app-3.jpg",
+      "bytes": 200111,
+      "contentType": "image/jpeg",
+      "path": "/images/legacy/portfolio-veterans-affairs.jpg"
+    },
+    {
+      "name": "favicon.png",
+      "source": "http://buajittiassociates.com/assets/img/favicon.png",
+      "bytes": 1156,
+      "contentType": "image/png",
+      "path": "/images/legacy/favicon.png"
+    },
+    {
+      "name": "apple-touch-icon.png",
+      "source": "http://buajittiassociates.com/assets/img/apple-touch-icon.png",
+      "bytes": 7489,
+      "contentType": "image/png",
+      "path": "/images/legacy/apple-touch-icon.png"
+    }
+  ]
+}

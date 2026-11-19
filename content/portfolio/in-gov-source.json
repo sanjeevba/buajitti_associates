@@ -1,0 +1,16 @@
+{
+  "organization": "State of Indiana (IN.gov)",
+  "sourcePageUrl": "https://www.in.gov/core/index.html",
+  "imageUrl": "https://www.in.gov/core/assets/img/ingov-logo-square.png",
+  "localPath": "/images/portfolio/in-gov.png",
+  "alt": "IN.gov State of Indiana logo",
+  "width": 150,
+  "height": 150,
+  "imageFit": "contain",
+  "websiteUrl": "https://www.in.gov/core/index.html",
+  "retrievedAt": "2026-11-19",
+  "selectionNotes": "Clean official square logo used as the homepage Open Graph image. The downloaded PNG is unchanged and includes the white Indiana silhouette and IN.gov wordmark on the official blue background. Native resolution is 150 pixels square.",
+  "organizationDescription": "Indiana's official state government website connects residents, businesses and visitors with public information, agencies and online services.",
+  "usageNotes": "The official website identifies IN.gov and its logo as trademarks/service marks of the Indiana Office of Technology. No separate license is stated for this individual image.",
+  "termsUrl": "https://www.in.gov/core/terms_of_use.html"
+}
