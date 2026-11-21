@@ -27,17 +27,21 @@ const dirname = path.dirname(filename)
 export default buildConfig({
   admin: {
     components: {
-      // The `BeforeLogin` component renders a message that you see while logging into your admin panel.
-      // Feel free to delete this at any time. Simply remove the line below.
       beforeLogin: ['@/components/BeforeLogin'],
-      // The `BeforeDashboard` component renders the 'welcome' block that you see after logging into your admin panel.
-      // Feel free to delete this at any time. Simply remove the line below.
       beforeDashboard: ['@/components/BeforeDashboard'],
+      graphics: {
+        Icon: '@/components/AdminBrand#AdminIcon',
+        Logo: '@/components/AdminBrand#AdminLogo',
+      },
     },
     importMap: {
       baseDir: path.resolve(dirname),
     },
     user: Users.slug,
+    meta: {
+      icons: { icon: '/favicon.svg' },
+      titleSuffix: ' | Buajitti & Associates',
+    },
     livePreview: {
       breakpoints: [
         {
